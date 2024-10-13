@@ -1,5 +1,9 @@
+<p align="center">
+<img src="https://raw.githubusercontent.com/nicolasloizeau/raytracing-black-holes/refs/heads/main/images/bh2.png" width=40% height=40%>
+</p>
 
 # Ray tracing black holes in numpy
+
 
 This is a super simple 100 lines python script to ray-trace black holes.
 
