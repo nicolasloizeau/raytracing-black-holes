@@ -88,7 +88,7 @@ def vect_rot(v, k, theta):
 theta = 0.0 # view angle. theta=0 is in the plane of the disk
 x0 = 8 # x position of the camera
 z0 = 1 # z position of the camera
-l = 2**10 # image size
+l = 2**9 # image size
 M = ray_tracing(l, x0, z0, theta)
 plt.imsave('bh.png', np.nan_to_num(M), cmap='inferno')
 plt.matshow(M, cmap='inferno')
