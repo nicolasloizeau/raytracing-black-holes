@@ -1,4 +1,5 @@
 
+<img src="https://raw.githubusercontent.com/nicolasloizeau/raytracing-black-holes/refs/heads/main/images/bh2.png" width=50% height=50%>
 
 
 # Ray tracing black holes in numpy
