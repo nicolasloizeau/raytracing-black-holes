@@ -1,5 +1,8 @@
 
+
+
 # Ray tracing black holes in numpy
+
 
 This is a super simple 100 lines python script to ray-trace black holes.
 
