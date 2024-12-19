@@ -11,7 +11,7 @@ phis = np.random.randint(1, 6, size=2) #random disk parameters
 def disc_color(x, y, z):
     r = np.sqrt(x**2 + y**2)
     t = r*2 + np.arctan2(y, x)
-    c = np.sin(t*omegas[0])+2*np.sin(t*omegas[1])+3*np.sin(t*omegas[2]+phis[0])+0.5*np.sin(t*omegas[3]+phis[1]) #spirale
+    c = np.sin(t*omegas[0])+2*np.sin(t*omegas[1])+3*np.sin(t*omegas[2]+phis[0])+0.5*np.sin(t*omegas[3]+phis[1]) #spiral
     color = (c**2 + 5)*np.exp(-r/4)*np.exp(-np.abs(z*30)) #exponential disk
     color[np.abs(z)>0.2] = 0
     color[np.abs(r)<1.01] = 0
