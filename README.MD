@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/nicolasloizeau/raytracing-black-holes/refs/heads/main/images/bh2.png" width=40% height=40%>
+<img src="https://raw.githubusercontent.com/nicolasloizeau/raytracing-black-holes/refs/heads/main/images/bh2.png" width="40%">
 </p>
 
 # Ray tracing black holes in numpy
